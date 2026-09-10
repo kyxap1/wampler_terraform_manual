@@ -1494,54 +1494,123 @@ Wampler Terraform Full User Guide"
             <strong>9v DC, center negative pin only</strong>.
           </p>
           <h3>Knob layout per effect</h3>
-          <ul>
-            <li>
-              <strong>Dimension</strong> &ndash; effect RATE; effect DEPTH;
-              output VOLUME; clean BLEND; VARIABLE amount of bass
-            </li>
-            <li>
-              <strong>Chorus</strong> &ndash; effect RATE; effect DEPTH; output
-              VOLUME; clean BLEND; VARIABLE amount of bass
-            </li>
-            <li>
-              <strong>Harmonic Tremolo</strong> &ndash; speed/RATE; effect
-              DEPTH; output VOLUME; BLEND = crossover point; VARIABLE = width
-            </li>
-            <li>
-              <strong>Tremolo</strong> &ndash; effect RATE; effect DEPTH; output
-              VOLUME; BLEND = stereo width; VARIABLE = waveform width
-            </li>
-            <li>
-              <strong>Auto Swell</strong> &ndash; effect RATE; effect DEPTH;
-              output VOLUME; clean BLEND; VARIABLE pick attack speed
-            </li>
-            <li>
-              <strong>Rotary</strong> &ndash; max horn speed RATE; max woofer
-              speed DEPTH; output VOLUME; BLEND between horn/woofer; VARIABLE
-              ramp speed
-            </li>
-            <li>
-              <strong>U Vibe</strong> &ndash; effect RATE; filter range DEPTH;
-              output VOLUME; clean BLEND; VARIABLE waveshape
-            </li>
-            <li>
-              <strong>Phaser</strong> &ndash; effect RATE; DEPTH of filter
-              range; VARIABLE stereo width; clean BLEND; output VOLUME
-            </li>
-            <li>
-              <strong>Flanger</strong> &ndash; effect RATE; effect DEPTH
-              (max = TZF); output VOLUME; clean BLEND; VARIABLE feedback level
-            </li>
-            <li>
-              <strong>Envelope Filter</strong> &ndash; attack speed/RATE; DEPTH
-              envelope sensitivity; output VOLUME; clean BLEND; VARIABLE changes
-              &ldquo;Q&rdquo;
-            </li>
-            <li>
-              <strong>Autowah</strong> &ndash; autowah RATE; filter DEPTH;
-              output VOLUME; clean BLEND; VARIABLE changes &ldquo;Q&rdquo;
-            </li>
-          </ul>
+          <div class="table-scroll">
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>Effect</th>
+                  <th>Knob layout</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Dimension</strong></td>
+                  <td>
+                    effect RATE; effect DEPTH; output VOLUME; clean BLEND;
+                    VARIABLE amount of bass
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Chorus</strong></td>
+                  <td>
+                    effect RATE; effect DEPTH; output VOLUME; clean BLEND;
+                    VARIABLE amount of bass
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Harmonic Tremolo</strong></td>
+                  <td>
+                    speed/RATE; effect DEPTH; output VOLUME; BLEND = crossover
+                    point; VARIABLE = width
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Tremolo</strong></td>
+                  <td>
+                    effect RATE; effect DEPTH; output VOLUME; BLEND = stereo
+                    width; VARIABLE = waveform width
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Auto Swell</strong></td>
+                  <td>
+                    effect RATE; effect DEPTH; output VOLUME; clean BLEND;
+                    VARIABLE pick attack speed
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Rotary</strong></td>
+                  <td>
+                    max horn speed RATE; max woofer speed DEPTH; output VOLUME;
+                    BLEND between horn/woofer; VARIABLE ramp speed
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>U Vibe</strong></td>
+                  <td>
+                    effect RATE; filter range DEPTH; output VOLUME; clean BLEND;
+                    VARIABLE waveshape
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Phaser</strong></td>
+                  <td>
+                    effect RATE; DEPTH of filter range; VARIABLE stereo width;
+                    clean BLEND; output VOLUME
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Flanger</strong></td>
+                  <td>
+                    effect RATE; effect DEPTH (max = TZF); output VOLUME; clean
+                    BLEND; VARIABLE feedback level
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Envelope Filter</strong></td>
+                  <td>
+                    attack speed/RATE; DEPTH envelope sensitivity; output
+                    VOLUME; clean BLEND; VARIABLE changes &ldquo;Q&rdquo;
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Autowah</strong></td>
+                  <td>
+                    autowah RATE; filter DEPTH; output VOLUME; clean BLEND;
+                    VARIABLE changes &ldquo;Q&rdquo;
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h3>Hook-up diagrams</h3>
+          <p><strong>STEREO / MONO</strong></p>
+          <img
+            style="margin: auto; display: block; width: 70%"
+            src="Images/RoutingStero_Mono.png"
+            alt="Guitar into TERRAFORM L IN; L OUT and R OUT to two amps"
+          />
+          <p>
+            For regular stereo / mono use, set the top switch to NORMAL (out
+            left for mono &ndash; use the right output as well for stereo).
+          </p>
+          <p><strong>PRE / POST &ndash; STRAIGHT IN</strong></p>
+          <img
+            style="margin: auto; display: block; width: 70%"
+            src="Images/Pre_Post - In Line.png"
+            alt="TERRAFORM PRE and POST jacks patched inline with a delay and an overdrive"
+          />
+          <p>For PRE / POST use, straight in, set the top switch to PRE/POST.</p>
+          <p><strong>PRE / POST &ndash; EFFECTS LOOP</strong></p>
+          <img
+            style="margin: auto; display: block; width: 70%"
+            src="Images/Pre_Post - FX Loop.png"
+            alt="TERRAFORM PRE and POST jacks routed through the amp FX send/return"
+          />
+          <p>
+            For PRE / POST use with an effects loop, set the top switch to
+            PRE/POST.
+          </p>
           <h3>Quick procedures</h3>
           <p>
             <strong>STEREO / MONO:</strong> for regular stereo or mono use, set
