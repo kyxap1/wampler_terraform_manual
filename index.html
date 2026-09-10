@@ -1588,8 +1588,10 @@
           <h3>The five controls</h3>
           <p>
             Every effect uses the same five knobs &ndash; RATE, DEPTH, VARIABLE,
-            BLEND, VOLUME &ndash; but what each one does changes per effect.
-            Hint: the BLEND is everything for Flanger &amp; Phaser.
+            BLEND, VOLUME &ndash; but what each one does changes per effect. The
+            grid below is what each knob does on each effect. VOLUME is always
+            the output level (CCW &minus;6&nbsp;dB, centre 0&nbsp;dB, CW
+            +6&nbsp;dB).
           </p>
           <p>
             Pedal legend switch: <strong>NORMAL (STEREO / MONO)</strong> or
@@ -1599,90 +1601,105 @@
           </p>
           <h3>Knob layout per effect</h3>
           <div class="table-scroll">
-            <table class="doc-table spacious">
+            <table class="doc-table matrix">
               <thead>
                 <tr>
                   <th>Effect</th>
-                  <th>Knob layout</th>
+                  <th>RATE</th>
+                  <th>DEPTH</th>
+                  <th>VARIABLE</th>
+                  <th>BLEND</th>
+                  <th>VOLUME</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td><strong>Dimension</strong></td>
-                  <td>
-                    effect RATE; effect DEPTH; output VOLUME; clean BLEND;
-                    VARIABLE amount of bass
-                  </td>
+                  <td>effect rate</td>
+                  <td>effect depth</td>
+                  <td>amount of bass</td>
+                  <td>clean</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Chorus</strong></td>
-                  <td>
-                    effect RATE; effect DEPTH; output VOLUME; clean BLEND;
-                    VARIABLE amount of bass
-                  </td>
+                  <td>effect rate</td>
+                  <td>effect depth</td>
+                  <td>amount of bass</td>
+                  <td>clean</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Harmonic Tremolo</strong></td>
-                  <td>
-                    speed/RATE; effect DEPTH; output VOLUME; BLEND = crossover
-                    point; VARIABLE = width
-                  </td>
+                  <td>speed</td>
+                  <td>effect depth</td>
+                  <td>width</td>
+                  <td>crossover point</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Tremolo</strong></td>
-                  <td>
-                    effect RATE; effect DEPTH; output VOLUME; BLEND = stereo
-                    width; VARIABLE = waveform width
-                  </td>
+                  <td>effect rate</td>
+                  <td>effect depth</td>
+                  <td>waveform width</td>
+                  <td>stereo width</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Auto Swell</strong></td>
-                  <td>
-                    effect RATE; effect DEPTH; output VOLUME; clean BLEND;
-                    VARIABLE pick attack speed
-                  </td>
+                  <td>effect rate</td>
+                  <td>effect depth</td>
+                  <td>pick attack speed</td>
+                  <td>clean</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Rotary</strong></td>
-                  <td>
-                    max horn speed RATE; max woofer speed DEPTH; output VOLUME;
-                    BLEND between horn/woofer; VARIABLE ramp speed
-                  </td>
+                  <td>max horn speed</td>
+                  <td>max woofer speed</td>
+                  <td>ramp speed</td>
+                  <td>horn / woofer</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>U Vibe</strong></td>
-                  <td>
-                    effect RATE; filter range DEPTH; output VOLUME; clean BLEND;
-                    VARIABLE waveshape
-                  </td>
+                  <td>effect rate</td>
+                  <td>filter range</td>
+                  <td>waveshape</td>
+                  <td>clean</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Phaser</strong></td>
-                  <td>
-                    effect RATE; DEPTH of filter range; VARIABLE stereo width;
-                    clean BLEND; output VOLUME
-                  </td>
+                  <td>effect rate</td>
+                  <td>filter range</td>
+                  <td>stereo width</td>
+                  <td>clean</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Flanger</strong></td>
-                  <td>
-                    effect RATE; effect DEPTH (max = TZF); output VOLUME; clean
-                    BLEND; VARIABLE feedback level
-                  </td>
+                  <td>effect rate</td>
+                  <td>effect depth (max = TZF)</td>
+                  <td>feedback level</td>
+                  <td>clean</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Envelope Filter</strong></td>
-                  <td>
-                    attack speed/RATE; DEPTH envelope sensitivity; output
-                    VOLUME; clean BLEND; VARIABLE changes &ldquo;Q&rdquo;
-                  </td>
+                  <td>attack speed</td>
+                  <td>envelope sensitivity</td>
+                  <td>changes &ldquo;Q&rdquo;</td>
+                  <td>clean</td>
+                  <td>output</td>
                 </tr>
                 <tr>
                   <td><strong>Autowah</strong></td>
-                  <td>
-                    autowah RATE; filter DEPTH; output VOLUME; clean BLEND;
-                    VARIABLE changes &ldquo;Q&rdquo;
-                  </td>
+                  <td>autowah rate</td>
+                  <td>filter</td>
+                  <td>changes &ldquo;Q&rdquo;</td>
+                  <td>clean</td>
+                  <td>output</td>
                 </tr>
               </tbody>
             </table>

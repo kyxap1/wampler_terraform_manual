@@ -199,14 +199,9 @@ a:active {
   overflow-x: auto;
   margin-bottom: 1em;
 }
-/* Quick Start knob-layout table: full-size text, roomier than the dense
-   MIDI reference tables that share .doc-table */
-.doc-table.spacious {
-  font-size: 1em;
-}
-.doc-table.spacious th,
-.doc-table.spacious td {
-  padding: 0.65em 0.8em;
+/* Knob-layout matrix: keep every cell on one line so the grid stays square */
+.doc-table.matrix td {
+  white-space: nowrap;
 }
 
 /* MEDIA QUERIES */
