@@ -35,6 +35,8 @@
           <h4><a href="#guide">L.e.d guide / Trouble shooting</a></h4>
           <h4><a href="#suggested-settings">Suggested settings</a></h4>
           <h4><a href="#warranty">Warranty / Power requirements</a></h4>
+          <h4><a href="#quick-start">Quick Start</a></h4>
+          <h4><a href="#addendum">Addendum (v1 Software Update)</a></h4>
         </div>
       </header>
     </nav>
@@ -51,6 +53,25 @@ Wampler Terraform Full User Guide"
             <header>
               <h2 id="intro">Welcome</h2>
             </header>
+            <!--   DOCUMENT UPDATE NOTICE -->
+            <div class="doc-update">
+              <strong>
+                Updated from TERRAFORM_manual_2023_2.pdf and
+                TerraformAddendum_1023_3.pdf &mdash; Addendum 1, October 2023.
+              </strong>
+              <p>
+                Power specification and warranty address revised; effect,
+                expression pedal and MIDI notes updated inline (look for the
+                marked <em>v1 software</em> notes).
+              </p>
+              <p>
+                Two new sections were added at the end of the menu:
+                <a href="#quick-start">Quick Start</a> and
+                <a href="#addendum">Addendum (v1 Software Update)</a>. Own an
+                earlier pedal? Read the
+                <a href="index-2019.html">archived 2019 revision</a>.
+              </p>
+            </div>
             <p>
               Without doubt the WAMPLER TERRAFORM is the first of a new breed of
               pedals from WAMPLER. We’ve completely thrown ourselves into the
@@ -115,6 +136,12 @@ Wampler Terraform Full User Guide"
             </div>
             <div class="toc-top-item">
               <h3><a href="#warranty">Warranty / Power Requirements</a></h3>
+            </div>
+            <div class="toc-top-item">
+              <h3><a href="#quick-start">Quick Start</a></h3>
+            </div>
+            <div class="toc-top-item">
+              <h3><a href="#addendum">Addendum (v1 Software Update)</a></h3>
             </div>
           </div>
         </div>
@@ -195,8 +222,8 @@ Wampler Terraform Full User Guide"
                   Controls the depth of the chorus: CCW is shallow, CW is deep.
                 </span>
                 <span>
-                  <strong><i>Variabe:</i></strong>
-                  Adjusts the amounts of low-end present in the effect.
+                  <strong><i>Variable:</i></strong>
+                  Adjusts the amount of low-end present in the effect.
                 </span>
                 <span>
                   <strong><i>Blend:</i></strong>
@@ -207,6 +234,11 @@ Wampler Terraform Full User Guide"
                   Overall volume of effect: CCW -6db, middle is 0db, CW +6db.
                 </span>
               </div>
+              <p class="v1-note">
+                <strong>v1 software:</strong> the VARIABLE knob on the Chorus
+                program is now a tone control (earlier units use it as a low
+                cut).
+              </p>
               <div>
                 <p>
                   <strong>INTERESTING STUFF:</strong>
@@ -478,6 +510,10 @@ Wampler Terraform Full User Guide"
                 Overall volume of effect: CCW -6db, middle is 0db, CW +6db.
               </span>
             </div>
+            <p class="v1-note">
+              <strong>v1 software:</strong> the VARIABLE knob controls Phaser
+              tone, and ALT + BLEND controls feedback.
+            </p>
             <div>
               <p>
                 <strong>INTERESTING STUFF:</strong>
@@ -866,6 +902,11 @@ Wampler Terraform Full User Guide"
                 To configure the expression pedal, all you have to do is this.
               </p>
             </div>
+            <p class="v1-note">
+              <strong>v1 software:</strong> to start the setup process, hold
+              both the BYPASS and TAP TEMPO switches simultaneously for one
+              second, then step through the range and function as below.
+            </p>
             <ol>
               <li>
                 Press and hold the BYPASS stomp, and then press the TAP TEMPO
@@ -892,6 +933,11 @@ Wampler Terraform Full User Guide"
               after configuration; loading another preset will overwrite your
               hard work!
             </p>
+            <h3>Type of Expression Pedal</h3>
+            <p>
+              TRS, wired in the &lsquo;regular&rsquo; way: Tip = Expression
+              Output, Ring = &lsquo;Live&rsquo; (5V), Sleeve = Ground.
+            </p>
           </div>
         </div>
       </section>
@@ -907,7 +953,15 @@ Wampler Terraform Full User Guide"
                 preset switch. Presets 1-4 are shown with the 1 LED on and three
                 off, 5-8 are 3 on and 1 off.
               </p>
-
+            </div>
+            <p class="v1-note">
+              <strong>v1 software:</strong> on power up the pedal loads the
+              current knob settings instead of reverting to preset 1, and
+              turning the PROGRAM knob keeps the current knob positions instead
+              of loading program defaults. Presets 1-128 are also addressable
+              over MIDI.
+            </p>
+            <div>
               <h3>Saving a preset</h3>
               <p>
                 Saving a preset is simple, of course it is, it’s the TERRAFORM.
@@ -986,6 +1040,12 @@ Wampler Terraform Full User Guide"
                 remember it.
               </p>
             </div>
+            <p class="v1-note">
+              <strong>v1 software:</strong> full MIDI CC control (see the
+              <a href="#addendum">Addendum</a> for the CC reference table), full
+              MIDI Clock compatibility, and presets 1-128 available via MIDI
+              messages. Holding ALT + PRESET selects the Tap Tempo subdivision.
+            </p>
           </div>
         </div>
       </section>
@@ -1386,11 +1446,12 @@ Wampler Terraform Full User Guide"
           <h2>Warranty / Power Requirements</h2>
           <h3>Power Requirements</h3>
           <p>
-            This pedal was designed around the usage of a <strong>9vDC</strong> power source. To
-            avoid damage to the pedal, do <strong>NOT exceed 18vDC</strong>, do <strong>NOT use a center
-            pin positive adapter</strong> and do <strong>not use AC power</strong>. Using an incorrect
+            This pedal was designed around the usage of a <strong>9vDC</strong> power source and
+            although it can be run at slightly higher voltages, we highly recommend
+            <strong>9vDC</strong>. To avoid damage to the pedal, do <strong>NOT exceed 9vDC</strong>, do <strong>NOT use a
+            center pin positive adapter</strong> and do <strong>not use AC power</strong>. Using an incorrect
             power adapter can lead to damage and will void the warranty on the
-            pedal. This pedal draws approximately <strong>107mA</strong> at 9v, and <strong>108mA</strong> at 18v.
+            pedal. This pedal draws approximately <strong>130mA</strong> at 9v.
           </p>
           <h3>Warranty Information</h3>
           <p>
@@ -1398,7 +1459,7 @@ Wampler Terraform Full User Guide"
 <p>Wampler offers a five (5) year warranty to the original purchaser that this WAMPLER product will be free from defects in material and workmanship. This warranty does not cover service or parts to repair damage caused by accident, neglect, normal cosmetic wear, disaster, misuse, abuse, negligence, inadequate packing or shipping procedures and service, repair or modifications to the product, which have not been authorized by WAMPLER. If this product is defective in materials or workmanship as warranted above, your sole remedy shall be repair or replacement as provided below.</p>
           </p>
           <p><strong>RETURN PROCEEDURES.</strong></p>
-            <p>In the unlikely event that a defect should occur, follow the procedure outlined below. Defective products must be shipped, together with a dated sales receipt, freight pre-paid and insured directly to <strong>WAMPLER SERVICE DEPT – 3383 Gage Ave., Huntington Park, CA 90255</strong>. A Return Authorization Number must be obtained from our Customer Service Department prior to shipping the product. Products must be shipped in their original packaging or its equivalent; in any case, the risk of loss or damage in transit is to be borne by the purchaser. The Return Authorization Number must appear in large print directly below the shipping address. Always include a brief description of the defect, along with your correct return address and telephone number.</p>
+            <p>In the unlikely event that a defect should occur, follow the procedure outlined below. Defective products must be shipped, together with a dated sales receipt, freight pre-paid and insured directly to <strong>WAMPLER SERVICE DEPT – 5300 Harbor Street, Commerce, CA 90040</strong>. A Return Authorization Number must be obtained from our Customer Service Department prior to shipping the product. Products must be shipped in their original packaging or its equivalent; in any case, the risk of loss or damage in transit is to be borne by the purchaser. The Return Authorization Number must appear in large print directly below the shipping address. Always include a brief description of the defect, along with your correct return address and telephone number.</p>
             <p>When emailing to inquire about a returned product, always refer to the Return Authorization Number. If WAMPLER determines that the unit was defective in materials or workmanship at time duing the warranty period, WAMPLER has the option of repairing or replacing the product at no additional charge, except as set forth below. All replacement parts become a property of WAMPLER. Products replaced of repaired under this warranty will be returned via ground shipping within the United States-freight prepaid. WAMPLER is not responsible for costs associated with expedited shipping, either to WAMPLER or the return of the product to the customer.</p>
             <p><strong>INCIDENTAL OR CONSEQUENTAL DAMAGE</strong></p>
             <p>In no event is WAMPLER liable for any incidental or consequential damages arising out of the use or inability to use of any WAMPLER product, even if WAMPLER or a WAMPLER dealers has been advised of the possibility of such damages, or any other claim by any other party. Some states do not allow the exclusion or limitation of consequential damages, so the above limitation and exclusion may not apply to you. This warranty gives you specific legal rights and you may also have other rights which may vary from state to state.</p>
@@ -1407,6 +1468,356 @@ Wampler Terraform Full User Guide"
             <p><strong>NOTE:</strong> This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the interference by one or more of the following measures: - Reorient or relocate the receiving antenna. - Increase the separation between the equipment and receiver. - Connect the equipment into an outlet on a circuit different from that to which the receiver is connected. - Consult the dealer or an experienced radio/ TV technician for help.</p>
             <p>Changes or modifications not expressly approved by the party responsible for compliance could void the user’s authority to operate the equipment.</p>
             <p>This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) This device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.</p>
+        </div>
+      </section>
+      <!--  QUICK START  -->
+      <section id="quick-start">
+        <div class="half-container">
+          <h2>Quick Start</h2>
+          <p>
+            Condensed reference from
+            <strong>Terraformv1-QuickStart_2023.pdf</strong>. See the full
+            sections above for detail.
+          </p>
+        </div>
+        <div class="half-container flow">
+          <h3>The five controls</h3>
+          <p>
+            Every effect uses the same five knobs &ndash; RATE, DEPTH, VARIABLE,
+            BLEND, VOLUME &ndash; but what each one does changes per effect.
+            Hint: the BLEND is everything for Flanger &amp; Phaser.
+          </p>
+          <p>
+            Pedal legend switch: <strong>NORMAL (STEREO / MONO)</strong> or
+            <strong>PRE / POST</strong>; in NORMAL, the TAP TEMPO stomp also
+            toggles RAMP for Rotary. Power input:
+            <strong>9v DC, center negative pin only</strong>.
+          </p>
+          <h3>Knob layout per effect</h3>
+          <ul>
+            <li>
+              <strong>Dimension</strong> &ndash; effect RATE; effect DEPTH;
+              output VOLUME; clean BLEND; VARIABLE amount of bass
+            </li>
+            <li>
+              <strong>Chorus</strong> &ndash; effect RATE; effect DEPTH; output
+              VOLUME; clean BLEND; VARIABLE amount of bass
+            </li>
+            <li>
+              <strong>Harmonic Tremolo</strong> &ndash; speed/RATE; effect
+              DEPTH; output VOLUME; BLEND = crossover point; VARIABLE = width
+            </li>
+            <li>
+              <strong>Tremolo</strong> &ndash; effect RATE; effect DEPTH; output
+              VOLUME; BLEND = stereo width; VARIABLE = waveform width
+            </li>
+            <li>
+              <strong>Auto Swell</strong> &ndash; effect RATE; effect DEPTH;
+              output VOLUME; clean BLEND; VARIABLE pick attack speed
+            </li>
+            <li>
+              <strong>Rotary</strong> &ndash; max horn speed RATE; max woofer
+              speed DEPTH; output VOLUME; BLEND between horn/woofer; VARIABLE
+              ramp speed
+            </li>
+            <li>
+              <strong>U Vibe</strong> &ndash; effect RATE; filter range DEPTH;
+              output VOLUME; clean BLEND; VARIABLE waveshape
+            </li>
+            <li>
+              <strong>Phaser</strong> &ndash; effect RATE; DEPTH of filter
+              range; VARIABLE stereo width; clean BLEND; output VOLUME
+            </li>
+            <li>
+              <strong>Flanger</strong> &ndash; effect RATE; effect DEPTH
+              (max = TZF); output VOLUME; clean BLEND; VARIABLE feedback level
+            </li>
+            <li>
+              <strong>Envelope Filter</strong> &ndash; attack speed/RATE; DEPTH
+              envelope sensitivity; output VOLUME; clean BLEND; VARIABLE changes
+              &ldquo;Q&rdquo;
+            </li>
+            <li>
+              <strong>Autowah</strong> &ndash; autowah RATE; filter DEPTH;
+              output VOLUME; clean BLEND; VARIABLE changes &ldquo;Q&rdquo;
+            </li>
+          </ul>
+          <h3>Quick procedures</h3>
+          <p>
+            <strong>STEREO / MONO:</strong> for regular stereo or mono use, set
+            the top switch to NORMAL (out left for mono &ndash; use the right
+            output as well for stereo).
+          </p>
+          <p>
+            <strong>PRESET:</strong> set your tone, HOLD the PRESET button until
+            it flashes, select the patch location with the PRESET button, then
+            hold it down again to store your tone in that location.
+          </p>
+          <p>
+            <strong>EXPRESSION:</strong> hold down the BYPASS button and press
+            TAP TEMPO, release both. Set the HEEL position of the control, press
+            TAP TEMPO, set the TOE position of the control, press the TAP TEMPO
+            stomp to exit.
+          </p>
+          <p>
+            <strong>PRE / POST:</strong> on power up, hold both the BYPASS and
+            TAP TEMPO stomps and power up. Set each effect by selecting it and
+            pressing BYPASS for pre (LED = green) or TAP TEMPO for post
+            (LED = blue), then press the PRESET button to save your preferences.
+          </p>
+        </div>
+      </section>
+      <!--  ADDENDUM  -->
+      <section id="addendum">
+        <div class="half-container">
+          <h2>Addendum (v1 Software Update)</h2>
+          <p>
+            From <strong>TerraformAddendum_1023_3.pdf</strong> &ndash; User Guide
+            Addendum 1, October 2023.
+          </p>
+        </div>
+        <div class="half-container flow">
+          <h3>Introduction</h3>
+          <p>
+            As part of the onwards development of the DSP-based pedals, the
+            software on the recent production run of the Terraform line has been
+            updated to bring it in line with the Metaverse and to fix a few
+            other issues.
+          </p>
+          <p>
+            To check whether you have the latest version, hold down the BYPASS
+            footswitch while the pedal is powered on. If the LED indicator turns
+            <strong>red</strong>, you have the latest version and the notes below
+            apply.
+          </p>
+
+          <h3>Changes</h3>
+          <ul>
+            <li>
+              On boot, the pedal loads the current knob settings instead of
+              reverting to preset 1.
+            </li>
+            <li>
+              When changing programs with the PROGRAM knob, the Terraform keeps
+              the current knob positions instead of loading program-specific
+              defaults, for a seamless transition between programs while
+              retaining preferred settings.
+            </li>
+            <li>
+              The VARIABLE knob on the Chorus program is now a tone control
+              (instead of a low cut).
+            </li>
+            <li>
+              To set up an expression pedal: hold both the BYPASS and TAP TEMPO
+              switches simultaneously for one second. The setup process
+              activates and you can configure the range and function of the
+              expression pedal.
+            </li>
+          </ul>
+
+          <h3>Added Features</h3>
+          <ul>
+            <li>
+              <strong>Phaser:</strong> the VARIABLE knob controls Phaser tone;
+              ALT + BLEND controls feedback.
+            </li>
+            <li>
+              <strong>Alt-Control:</strong> holding ALT + PRESET selects the Tap
+              Tempo subdivision.
+            </li>
+            <li>
+              <strong>MIDI:</strong> full MIDI CC control (see table below), full
+              MIDI Clock compatibility, presets 1-128 available via MIDI
+              messages.
+            </li>
+          </ul>
+
+          <h3>Bug Fixes</h3>
+          <ul>
+            <li>
+              Changing the Right Footswitch Mode from Preset Increment to Tap
+              Tempo no longer increments the preset.
+            </li>
+          </ul>
+          <p>
+            For warranty information and support, visit the Wampler website or
+            contact customer support at help@wamplerpedals.com.
+          </p>
+
+          <h3>MIDI Reference</h3>
+          <h4>MIDI CC Messages</h4>
+          <div class="table-scroll">
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>CC Function</th>
+                  <th>CC #</th>
+                  <th>Value (0-127)</th>
+                  <th>Description</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Bypass State</td><td>1</td><td>0 = off, 1-127 = on</td>
+                  <td>Turns the device on / off</td><td></td>
+                </tr>
+                <tr>
+                  <td>Program</td><td>2</td><td>0-10</td>
+                  <td>Selects the mod program</td>
+                  <td>
+                    0 = Autowah, 1 = Envelope Filter, 2 = Flanger, 3 = Phaser,
+                    4 = UVibe, 5 = Rotary, 6 = Autoswell, 7 = Tremolo,
+                    8 = Harmonic Tremolo, 9 = Chorus, 10 = Dimension
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mod Rate (knob)</td><td>3</td><td>0-127</td>
+                  <td>Emulates the Mod Rate knob</td><td>0.1 Hz to 10 Hz</td>
+                </tr>
+                <tr>
+                  <td>Mod Depth (knob)</td><td>4</td><td>0-127</td>
+                  <td>Emulates the Mod Depth knob</td><td></td>
+                </tr>
+                <tr>
+                  <td>Variable (knob)</td><td>5</td><td>0-127</td>
+                  <td>Emulates the Variable knob</td><td></td>
+                </tr>
+                <tr>
+                  <td>Output Mix (knob)</td><td>6</td><td>0-127</td>
+                  <td>Emulates the Output Mix knob</td>
+                  <td>
+                    0 = dry 100% + wet 0%, 63 = dry 100% + wet 100%,
+                    127 = dry 0% + wet 100%. Rotary: blend between woofer and
+                    horn. Tremolo: phase 0 = 0&deg;, 63 = 90&deg;, 127 = 180&deg;.
+                    Harmonic Tremolo: crossover filter frequency 0 = 100 Hz,
+                    63 = 700 Hz, 127 = 2500 Hz
+                  </td>
+                </tr>
+                <tr>
+                  <td>Output Level (knob)</td><td>7</td><td>0-127</td>
+                  <td>Emulates the Output Level knob</td>
+                  <td>0 = -6dB, 63 = 0dB, 127 = +6dB</td>
+                </tr>
+                <tr>
+                  <td>Phaser Feedback</td><td>8</td><td>0-127</td>
+                  <td>Emulates the Phaser Feedback alt-param</td>
+                  <td>0 = script, 63 = block, 127 = beyond</td>
+                </tr>
+                <tr>
+                  <td>Rotary Speed</td><td>9</td><td>0 = fast, 1-127 = slow</td>
+                  <td>Sets the rotary speed between fast (tremolo) and slow
+                    (chorale)</td>
+                  <td>0 = fast (tremolo), 1-127 = slow (chorale)</td>
+                </tr>
+                <tr>
+                  <td>Subdivision</td><td>11</td><td>0-14</td>
+                  <td>Sets the tap tempo subdivision (0-7 are accessible via the
+                    front panel)</td>
+                  <td>
+                    0 = Quarter, 1 = Dotted Eighth, 2 = Eighth, 3 = Sixteenth,
+                    4 = Half, 5 = Whole, 6 = Dotted Quarter, 7 = Triplet Quarter,
+                    8 = Dotted Sixteenth, 9 = Dotted Half, 10 = Dotted Whole,
+                    11 = Triplet Sixteenth, 12 = Triplet Eighth, 13 = Triplet
+                    Half, 14 = Triplet Whole
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mod Rate (high ms)</td><td>12</td><td>0-15</td>
+                  <td>A Time High message followed by a Time Low message sets the
+                    Mod Rate period to a specific ms value</td>
+                  <td>
+                    ms = 1000 / Hz. High = ms / 128 (integer part),
+                    Low = ms % 128. Example: 0000111 1101000 &rarr; High = 7,
+                    Low = 104 &rarr; 1000 ms
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mod Rate (low ms)</td><td>13</td><td>0-127</td>
+                  <td>Each message is a 7-bit value; sent together they are
+                    interpreted as a 14-bit value</td>
+                  <td>Example: 0000001 1111010 &rarr; High = 1, Low = 122 &rarr;
+                    250 ms</td>
+                </tr>
+                <tr>
+                  <td>Tap Tempo</td><td>81</td><td>0</td>
+                  <td>Emulates the tap tempo function of the tap tempo switch</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Preset Decrement</td><td>82</td><td>0-127</td>
+                  <td>Decrements the preset number by &lt;value&gt;</td>
+                  <td>value = 0 reloads the current preset</td>
+                </tr>
+                <tr>
+                  <td>Preset Increment</td><td>83</td><td>0-127</td>
+                  <td>Increments the preset number by &lt;value&gt;</td>
+                  <td>value = 0 reloads the current preset</td>
+                </tr>
+                <tr>
+                  <td>Tempo Switch Mode</td><td>84</td>
+                  <td>0 = tap tempo, 1-127 = preset inc</td>
+                  <td>Selects the mode of the tempo switch</td>
+                  <td>0 = tap tempo switch triggers tap tempo; 1-127 = tap tempo
+                    switch increments the preset</td>
+                </tr>
+                <tr>
+                  <td>Routing Mode</td><td>85</td>
+                  <td>0 = normal (stereo), 1-127 = pre/post (mono)</td>
+                  <td>Sets the routing mode</td><td></td>
+                </tr>
+                <tr>
+                  <td>MIDI Clock Enable</td><td>99</td><td>0 = off, 1-127 = on</td>
+                  <td>0 = ignore MIDI Clock, 1-127 = follow MIDI Clock</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Expression Pedal</td><td>100</td><td>0-127</td>
+                  <td>Emulates the expression pedal input</td><td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h4>MIDI PC Messages</h4>
+          <div class="table-scroll">
+            <table class="doc-table">
+              <thead>
+                <tr><th>PC Function</th><th>PC Number</th><th>Description</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Load a preset</td><td>0-127</td>
+                  <td>Loads preset of matching PC number</td>
+                </tr>
+                <tr>
+                  <td>Save a preset</td><td>0-127</td>
+                  <td>When in preset-write mode, sending a PC number saves the
+                    current settings to that preset number</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h4>MIDI Realtime Messages</h4>
+          <div class="table-scroll">
+            <table class="doc-table">
+              <thead>
+                <tr><th>Realtime Message</th><th>Number</th><th>Description</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MIDI Clock</td><td>248</td>
+                  <td>Sets the Mod Rate based on received MIDI Clock, multiplied
+                    by the subdivision. BPM = 60 &times; (Mod Rate Hz);
+                    Mod Rate Hz = BPM / 60</td>
+                </tr>
+                <tr>
+                  <td>Start</td><td>250</td><td>Sync the tap tempo LED</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
     </main>

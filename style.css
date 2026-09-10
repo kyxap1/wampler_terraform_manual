@@ -139,6 +139,67 @@ a:active {
   margin-bottom: 1em;
 }
 
+/* Changelog banner under the Welcome header */
+.doc-update {
+  font-family: Quantico;
+  font-size: 0.9em;
+  line-height: 1.6;
+  background: #f3f1fa;
+  border-left: 4px solid #0f062b;
+  padding: 1em 1.25em;
+}
+.doc-update > strong {
+  display: block;
+  font-family: Days One, sans-serif;
+  font-size: 0.95em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.doc-update p {
+  margin-bottom: 0.5em;
+}
+.doc-update p:last-child {
+  margin-bottom: 0;
+}
+.doc-update a {
+  text-decoration: underline;
+}
+
+/* Inline marker for changes introduced by the v1 software update (see Addendum) */
+.v1-note {
+  font-family: Quantico;
+  border-left: 3px solid #0f062b;
+  padding-left: 0.75em;
+  margin-bottom: 1em;
+}
+
+/* Reference tables (MIDI, quick start) */
+.doc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Quantico;
+  font-size: 0.85em;
+  margin-bottom: 1em;
+}
+.doc-table th,
+.doc-table td {
+  border: 1px solid #0f062b;
+  padding: 0.4em 0.5em;
+  text-align: left;
+  vertical-align: top;
+}
+.doc-table th {
+  background: #0f062b;
+  color: white;
+  font-family: Days One, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+.table-scroll {
+  overflow-x: auto;
+  margin-bottom: 1em;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 900px) {
   .flex-container {
